@@ -32,7 +32,6 @@ causes a smooth transition in height of the div over 0.4 seconds */
 .accordion .section div {
     height: 0;
     overflow: hidden;
-    transition: height .4s linear;
 }
 
 /*
@@ -45,7 +44,6 @@ via an anchor
 }
 
 .accordion :target > div {
-    height: 100px;
 }
 
 /*
@@ -53,5 +51,4 @@ via an anchor
   is scrollable in the inner div
 */
 .accordion .section.large:target h3 + div {
-    overflow: auto;
 }
